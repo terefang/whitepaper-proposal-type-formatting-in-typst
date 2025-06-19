@@ -20,3 +20,32 @@ undermines Typst’s goal of providing both elegance and expressiveness. Integra
 utility in scientific, technical, and data-driven documents, supporting dynamic content generation, programmatic layout logic, 
 and multilingual output. Ultimately, these capabilities are foundational for bridging the gap between high-level typesetting and 
 low-level data presentation, making Typst a more competitive and versatile platform for modern publishing.
+
+## Prior Art
+
+### Programming Languages
+
+List of string and type formatting implementations.
+
+| Language         | Formatting Style(s)                             | Example Syntax                              |
+| ---------------- | ----------------------------------------------- | ------------------------------------------- |
+| **Python**       | `str.format()`, f-strings (`f""`), `%` operator | `f"Value: {x:.2f}"`                         |
+| **JavaScript**   | Template literals, manual formatting            | `` `Value: ${x.toFixed(2)}` ``              |
+| **Java**         | `String.format()`, `Formatter`, printf-style    | `String.format("Value: %.2f", x)`           |
+| **C**            | `printf`, `sprintf`                             | `printf("Value: %.2f", x);`                 |
+| **C++**          | `printf`, C++20 `std::format`, `ostringstream`  | `std::format("Value: {:.2f}", x)`           |
+| **C#**           | Interpolation (`$""`), `String.Format()`        | `$"Value: {x:F2}"`                          |
+| **Go**           | `fmt.Sprintf`, `fmt.Printf`                     | `fmt.Sprintf("Value: %.2f", x)`             |
+| **Rust**         | `format!`, `println!` macros with formatting    | `format!("Value: {:.2}", x)`                |
+| **Kotlin**       | Interpolation, `String.format()`                | `"Value: %.2f".format(x)`                   |
+| **Swift**        | Interpolation, `String(format:)`                | `String(format: "Value: %.2f", x)`          |
+| **TypeScript**   | Same as JavaScript                              | `` `Value: ${x.toFixed(2)}` ``              |
+| **PHP**          | Interpolation, `sprintf()`, `printf()`          | `sprintf("Value: %.2f", $x)`                |
+| **Ruby**         | `sprintf`, interpolation, `.format`             | `"Value: %.2f" % x`                         |
+| **Shell (Bash)** | `printf`, variable substitution                 | `printf "%.2f\n" $x`                        |
+| **R**            | `sprintf`, `format`, paste                      | `sprintf("Value: %.2f", x)`                 |
+| **MATLAB**       | `sprintf`, `fprintf`                            | `sprintf('Value: %.2f', x)`                 |
+| **Perl**         | `sprintf`, interpolation                        | `sprintf("Value: %.2f", $x)`                |
+| **Lua**          | `string.format()`                               | `string.format("Value: %.2f", x)`           |
+| **Pascal**       | `WriteLn`, `Format()` (Delphi), `FormatFloat()` | `Format('Value: %.2f', [x])` (Delphi-style) |
+| **Scala**        | Interpolation (`s""`), `f""`, `printf`-style    | `f"Value: $x%.2f"`                          |
