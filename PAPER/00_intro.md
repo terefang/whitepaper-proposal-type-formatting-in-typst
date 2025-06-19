@@ -21,7 +21,7 @@ utility in scientific, technical, and data-driven documents, supporting dynamic 
 and multilingual output. Ultimately, these capabilities are foundational for bridging the gap between high-level typesetting and 
 low-level data presentation, making Typst a more competitive and versatile platform for modern publishing.
 
-## Prior Art
+## Analysis, ie. Prior Art
 
 Let’s begin with an analysis:
 
@@ -55,3 +55,18 @@ List of string and type formatting implementations.
 | **Lua**          | `string.format()`                               | `string.format("Value: %.2f", x)`           |
 | **Pascal**       | `WriteLn`, `Format()` (Delphi), `FormatFloat()` | `Format('Value: %.2f', [x])` (Delphi-style) |
 | **Scala**        | Interpolation (`s""`), `f""`, `printf`-style    | `f"Value: $x%.2f"`                          |
+
+### Common Patterns
+
+Despite the diversity of programming languages, most string and type formatting implementations share a 
+core set of principles and patterns. These include placeholder substitution, type-specific formatting 
+(e.g., for integers, floats, and strings), and support for width, precision, and alignment. 
+
+Nearly all systems, whether based on printf-style syntax (e.g., C, Lua), template literals (e.g., JavaScript), 
+or format functions and macros (e.g., Python's `format()`, Rust's `format!`), rely on a separation between the 
+format string and the data to be injected. Additionally, formatting systems often offer escape mechanisms, 
+locale-aware formatting, and extensibility through custom formatters. 
+
+These shared traits reflect a convergent evolution toward balancing expressiveness, safety, and readability. 
+Understanding these commonalities helps guide the design of new formatting systems, making them more intuitive 
+and interoperable.
