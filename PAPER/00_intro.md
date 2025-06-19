@@ -23,6 +23,12 @@ low-level data presentation, making Typst a more competitive and versatile platf
 
 ## Prior Art
 
+Let’s begin with an analysis:
+
+* What formatting implementations currently exist across major programming languages or applications?
+* What common principles or patterns do they share?
+* Should we adopt an existing standard, or is there a justified need to create a new one?
+
 ### Programming Languages
 
 List of string and type formatting implementations.
