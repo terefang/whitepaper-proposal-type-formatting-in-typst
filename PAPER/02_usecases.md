@@ -23,4 +23,4 @@ Here are the main use cases for string and type formatting in Typst, illustratin
 * numeric ranges, thousand separators, SI prefixes, unit extensibility via CSV.
 * digit grouping, scientific notation, ± uncertainties, alignment in tables.
 
-**Use cases:** dat/lab reports, scientific/engineering papers, technical/data tables, measurement presentations.
+**Use cases:** data/lab reports, scientific/engineering papers, technical/data tables, measurement presentations.
