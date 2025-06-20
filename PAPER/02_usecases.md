@@ -6,7 +6,7 @@ Here are the main use cases for string and type formatting in Typst, illustratin
 
 * Using raw blocks to display code examples clearly, with control over fonts, tab size, and syntax highlighting.
 * IDE‑style presentation in tutorials: show source + rendered preview side by side.
-* Output dumps from legacy systems, like mainframe and as400.
+* Output dumps from legacy systems, like mainframe and as400, or emulating exactly the output.
 
 **Use cases:** documentation, tutorials, blog posts, academic materials with embedded code, and legacy integration.
 
